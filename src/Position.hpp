@@ -11,7 +11,7 @@ class Board
 public:
     constexpr Board() NEXCEPT
     {
-        std::fill(std::begin(board_),   std::end(board_),   Piece::None);
+        std::fill(std::begin(board_),     std::end(board_),     Piece::None);
         std::fill(std::begin(by_colour_), std::end(by_colour_), 0ull);
         std::fill(std::begin(by_type_),   std::end(by_type_),   0ull);
     }

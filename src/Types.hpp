@@ -12,6 +12,12 @@
 #define NEXCEPT noexcept
 #endif 
 
+#ifdef __GNUG__
+#define _COMP_GCC true
+#else
+#define _COMP_GCC false
+#endif
+
 using u64 = uint64_t;
 using u32 = uint32_t;
 using u16 = uint16_t;
