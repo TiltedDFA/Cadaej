@@ -1,0 +1,1 @@
+This is meant to be a successor to TDFA. Where TDFA was an engine that I created mainly through my own ideas, this engine will be made by implamenting the most up to date techniques and tricks in pursuit of making the strongest engine that I can.
